@@ -1,0 +1,28 @@
+.card-content {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  /* background-color: var(--fundo-detalhes); */
+  /* border-radius: 4px; */
+  flex-wrap: wrap;
+  padding: 0 0 16px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 10px;
+}
+
+.card-title {
+  font-size: 1.2em;
+}
+
+.card-text {
+  margin-top: 8px;
+  font-size: 1em;
+  align-self: flex-start;
+  color: #fffd;
+}

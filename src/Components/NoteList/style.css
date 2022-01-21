@@ -1,0 +1,38 @@
+.card{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  display: grid;
+}
+
+.category{
+  background-color: #0008;
+  padding: 5px 15px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.note-list{
+  /* background-color: var(--fundo); */
+  flex-grow: 3;
+  display: grid;
+  grid-template-columns: auto auto;
+  list-style-type: none;
+  padding-top: 24px;
+}
+
+@media all and (max-width: 600px) {
+  .note-list{
+    grid-template-columns: auto;
+  }
+}
